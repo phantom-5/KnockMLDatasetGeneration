@@ -3,8 +3,8 @@
 ## Instructions : ##
 
 - Record duration 1 sec for each sample
-- Create 25 Knock samples
-- Create 25 Not(Not Knock) samples
+- Create 25 Knock samples ( physicaly knock on laptop once, to the side of mouspad )
+- Create 25 Not(Not Knock) samples ( Cough , Clap , Sing , Play Song , talk , but 1 sec )
 - Run it in the file, collect data in notepad excel, doesnt matter but collect data
 - No synthetic results because we need more datasets to even create synthetic data so 50(25 not knock,25 knock , 1sec duration samples )
 
