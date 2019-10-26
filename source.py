@@ -82,14 +82,12 @@ def cal(filename):
 
     Pitch=librosa.beat.tempo(y=x,sr=xr)
 
-row=0
+row=116
 col=0
 
-for item in [16,17,18,23,26,27,32,34,35,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,
-             66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,
-             90,91,92,93,94,95,96,97,98,99,100]:
+for item in range(1,19):
     print("Writing to workbook...")
-    cal('Nots//Recording ('+str(item)+').wav')
+    cal('Nots//not'+str(item)+'.wav')
     vals=[Freq,Amps,Phases,Pitch[0],0]
     print(vals)
     for stuff in vals:
@@ -99,9 +97,9 @@ for item in [16,17,18,23,26,27,32,34,35,51,52,53,54,55,56,57,58,59,60,61,62,63,6
     col=0
     print("Inserted ",row)
 
-for item in range(1,57):
+for item in range(7,27):
     print("Writing to workbook...")
-    cal('Knocks//Recording ('+str(item)+').wav')
+    cal('Knocks//Knock'+str(item)+'.wav')
     vals=[Freq,Amps,Phases,Pitch[0],1]
     print(vals)
     for stuff in vals:
