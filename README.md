@@ -14,7 +14,7 @@
 - Change file name in program ( two times )
 - Name files serially, Knock1, Knock2 so on... and Not1,Not2 so on....
 
-Try do it by Diwali Afternoon. Evening re firecracker sound will fuck our dataset so...
+Try do it by today, so that you can all enjoy Diwali.
 
 ## Please,do
 
